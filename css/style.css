@@ -2380,7 +2380,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/December/236. Event-02/HTML/scss/_brand.scss */
 .brand_area {
-  padding-top: 150px;
+  padding-top: 30px;
 }
 
 @media (max-width: 767px) {
@@ -5988,7 +5988,7 @@ html {
 .winners-cash-prize {
   font-weight: bold;
   color: orange;
-  font-size: larger !important;
+  font-size: xx-large !important;
 
   margin-top: 5px;
 }
@@ -6004,7 +6004,7 @@ html {
  .about-img{
     height: 90vh !important;
     width: 34vw !important;
-    margin-left: 30px;
+    margin-left: 20px;
   }
 
 .my-register-btn {
@@ -6056,8 +6056,44 @@ my-contact-us-info {
   padding-top: 45px !important;
   padding-bottom: 0 !important;
   border-top: 2px solid white;
+  width:100%;
 }
 
+ .my-navigation{
+  width:106% !important;
+ }
+
+ .padded-box {
+      padding: 35px;
+      width: 1vw !important;
+ }
+
+ .padded-instructions{
+    padding: 15px !important;
+ }
+/* .myfooter{
+  width: 1vw !important;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+} */
+ 
+.padded-Instheading {
+  display: inline-block;
+  font-size: clamp(1.2rem, 5vw, 2rem); /* adjusts size responsively */
+  white-space: nowrap;
+}
+
+
+.my-footer-top{
+  width: 1vw !important;
+  background-color: white;
+  height: 5px;
+  position: relative;
+  left: 0%;
+  z-index: 900;
+}
 @media (max-width: 768px) {
   .slicknav_btn {
     margin-top: 8px !important;
@@ -6066,6 +6102,10 @@ my-contact-us-info {
   .about-img{
     height: 50vh !important;
     width: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
   }
 
   .my-about {
